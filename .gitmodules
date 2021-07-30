@@ -1,0 +1,4 @@
+[submodule "thesimpleengineerblog/public"]
+	path = thesimpleengineerblog/public
+	url = https://github.com/sweepers50/sweepers50.github.io.git
+	branch = master
