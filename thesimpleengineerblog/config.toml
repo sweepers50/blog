@@ -1,4 +1,41 @@
 baseURL = "https://sweepers50.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sweepers War"
 theme="hugo-theme-cleanwhite"
+paginate = 5000 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  header_image = "images/main.jpeg"
+  title = "Sweepers war"
+  slogan = "$ grep -rni \"The how's and why's\" ."
+  SEOTitle = "Rich Youngkin Blog"
+  keyword = "Rich, Youngkin, Raspberry, Pi, Docker, Kubernetes, Go, Golang, Microservice"
+
+[[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+[[params.addtional_menus]]
+  title = "Blog"
+  href =  "/top/blog/"
+
+[[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+[[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+[[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+
+[params.social]
+  rss            = true
+  email          = "mohamed.abohelal20@yahoo.com"
+  linkedin       = "https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit"
+  github         = "https://github.com/sweepers50"
+  facebook       = "https://www.facebook.com/"
