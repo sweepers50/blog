@@ -1,4 +1,4 @@
 baseURL = "https://sweepers50.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme="hello-friend"
+theme="hugo-theme-cleanwhite"
